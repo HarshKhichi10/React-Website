@@ -1,13 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header'
 import * as serviceWorker from './serviceWorker';
+import Navigation from './Navigation';
+import './Navigation.css'
+import Services from './Services';
+import App from './App'
+
+
+ { /*class App extends React.Component{
+
+  render(){
+
+
+    return(
+          <div>
+         <Navigation logotitle="React Projects"/>
+
+        <Header title="Stylish PortFolio" button="Find out more"/>
+        <Services/>
+        </div>
+    )
+  }
+}
+
+
+*/}
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App/>
+     </React.StrictMode>,
   document.getElementById('root')
 );
 
